@@ -18,8 +18,5 @@ app.use(function (err, req, res, next) {
   res.status(500).send('Something broke!')
 })
 
-app.listen(PORT, () => {
-  console.log(`Listening on ${PORT}.`);
-});
 
 module.exports = app;
