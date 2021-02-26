@@ -13,6 +13,11 @@ app.get('/', (req, res) => {
   res.send('Hello from Petful!');
 });
 
+app.use(function (err, req, res, next) {
+  console.error(err)
+  res.status(500).send('Something broke!')
+})
+
 app.listen(PORT, () => {
   console.log(`Listening on ${PORT}.`);
 });
