@@ -1,5 +1,4 @@
 # Petful Server
-# Petful Client
 
 link to live app: https://petful-client-template-omega.vercel.app/
 link to heroku deploy: https://lit-hollows-28571.herokuapp.com/
